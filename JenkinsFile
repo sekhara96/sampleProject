@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Chekout') {
             steps {
-                sh 'echo passed'
+                git branch: 'master', url: 'https://github.com/sekhara96/sampleProject.git'
             }
         }
     }
