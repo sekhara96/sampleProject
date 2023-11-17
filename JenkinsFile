@@ -10,7 +10,7 @@ pipeline {
             steps {
               sh 'ls -ltr'
               // build the project and create a JAR file
-              sh 'cd src && mvn clean package'
+              sh 'cd cd /var/lib/jenkins/workspace/sample-pipline/src && mvn clean package'
             }
         }
     }
