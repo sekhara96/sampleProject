@@ -1,0 +1,10 @@
+pipeline {
+    agent any 
+    stages {
+        stage('Chekout') {
+            steps {
+                sh 'echo passed'
+            }
+        }
+    }
+}
