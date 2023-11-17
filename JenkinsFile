@@ -10,7 +10,7 @@ pipeline {
             steps {
               sh 'ls -ltr'
               // build the project and create a JAR file
-              sh 'cd src/main/java/com/sekhar/startproject && mvn clean package'
+              sh 'cd src && mvn clean package'
             }
         }
     }
